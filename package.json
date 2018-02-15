@@ -1,0 +1,28 @@
+{
+  "name": "wdio-html-reporter",
+  "description": "WebdriverIO HTML reporter",
+  "version": "1.0.0",
+  "main": "dis/index.js",
+  "author": "Mohsen Azimi <me@azimi.me>",
+  "license": "Apache2",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "wdio-plugin",
+    "wdio-reporter"
+  ],
+  "devDependencies": {
+    "typescript": "^2.7.2",
+    "@types/node": "^9.4.6",
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
